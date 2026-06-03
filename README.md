@@ -156,15 +156,16 @@ Varies by lab, but broadly:
 
 ## Suggested order
 
-1. **LAB 2** — build the bookstore MCP server (foundation).
-2. **LAB 3** — configure Claude Code around that server (the four surfaces).
-3. **LAB 1** — multi-agent orchestration with the Claude Agent SDK.
+Take the labs in numbered order:
+
+1. **LAB 1** — multi-agent orchestration with the Claude Agent SDK.
+2. **LAB 2** — build the bookstore MCP server (foundation).
+3. **LAB 3** — configure Claude Code around that server (the four surfaces).
 4. **LAB 4** — forced tool use + validation + retry (structured extraction).
 5. **LAB 5** — resilience and stress-testing for production agents.
 
-Labs 1, 4, and 5 are independent and can be taken in any order; Lab 3
-builds conceptually on Lab 2.
+In particular, do **Lab 2 before Lab 3** — Lab 3 configures Claude Code
+around the bookstore MCP server that Lab 2 builds, so taking them back to
+back keeps that thread intact.
 
 ---
-
-*Source: [LLM-AT-SCALE/ANTHROPIC-CCAF-LABS](https://github.com/LLM-AT-SCALE/ANTHROPIC-CCAF-LABS)*
