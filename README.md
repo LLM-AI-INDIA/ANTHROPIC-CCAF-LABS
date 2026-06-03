@@ -75,7 +75,7 @@ self-contained in the prompt).
   vs. automatic (a hook fires on its own event).
 - **Deliverable:** a complete, runnable project folder with the MCP server
   plus all four configuration files, an auto-smoke-test hook, and `/seed`
-  and `/query` commands.
+  and `/report` commands.
 
 ### LAB 4 — AI Medical Report Analyzer
 A **tool-use + retry-validation** system that converts unstructured medical
