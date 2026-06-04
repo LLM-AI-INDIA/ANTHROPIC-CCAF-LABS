@@ -97,7 +97,7 @@ Builds a resilient, multi-turn AI **customer-support agent** and
 systematically stress-tests its recovery against simulated failures.
 
 - **Teaches:** production-grade error handling and **fault-injection
-  methodology** — API errors, tool timeouts, context overflow — paired with
+  methodology** — API errors, tool failures, context overflow — paired with
   automatic resilience mechanisms.
 - **Tech:** Anthropic Claude API, Python 3.10+, a fault-injection
   framework, structured logging, JSON reporting.
